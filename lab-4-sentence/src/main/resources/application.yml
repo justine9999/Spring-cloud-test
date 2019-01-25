@@ -4,7 +4,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
 
-words: I,You,He,She,It
-
 server:
-  port: 8011
+  port: 8020
