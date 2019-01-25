@@ -2,3 +2,12 @@
 spring:
   application:
     name: lab-4-noun
+    
+  cloud:
+    config:
+      uri: http://localhost:8001
+      
+---
+spring:
+  profiles:
+    active: noun
